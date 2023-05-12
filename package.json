@@ -1,0 +1,31 @@
+{
+  "name": "api_tree",
+  "version": "1.0.0",
+  "description": "api for future wep app my_tree_family",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gatslage/api_tree.git"
+  },
+  "author": "Apollos gamtchessi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gatslage/api_tree/issues"
+  },
+  "homepage": "https://github.com/Gatslage/api_tree#readme",
+  "dependencies": {
+    "@hapi/joi": "^14.5.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}
